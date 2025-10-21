@@ -1,0 +1,86 @@
+.projectCnt{
+    margin: 0rem 15rem;
+   
+}
+h3{
+    color: white;
+    font-size: 38px;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projectBox img{
+    width: 320px;
+    height: 180px;
+    padding: 15px;
+}
+.projectBox{
+    background-color: #164192;
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0 0 35px rgba(22, 65, 146, 0.5); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    margin: 1rem 3rem;
+}
+.projectBox button{
+    margin: 1rem;
+    color: white;
+    background-color: #576CBC;
+    border: none;
+    width: 100px;
+    padding: 7px;
+    font-size: 24px;
+    border-radius:35px;
+    cursor: pointer;
+}
+.projectBox h4{
+    font-size: 20px;
+}
+.projectBox p{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 992px) {
+    .projectCnt {
+        margin: 0 5rem;
+    }
+
+    .projectBox {
+        width: 300px;
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .projectBox img {
+        width: 260px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .projectCnt {
+        margin: 0 2rem;
+    }
+
+    .projectBox {
+        width: 100%;
+    }
+
+    .projectBox img {
+        width: 100%;
+        height: auto;
+    }
+
+    .projectBox button {
+        font-size: 20px;
+        width: 80px;
+    }
+}
