@@ -7,7 +7,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 15rem;
+    margin: 1rem 10rem;
     position: relative;
 }
 
@@ -38,7 +38,7 @@ html {
 
 /* Responsive */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
     .section {
         display: none;
         flex-direction: column;

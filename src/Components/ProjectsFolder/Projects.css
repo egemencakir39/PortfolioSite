@@ -1,86 +1,101 @@
-.projectCnt{
-    margin: 0rem 15rem;
-   
+.projectCnt {
+  margin: 0rem 15rem;
 }
-h3{
-    color: white;
-    font-size: 38px;
+h3 {
+  color: white;
+  font-size: 38px;
 }
-.project{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.project {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.projectBox img{
-    width: 320px;
-    height: 180px;
-    padding: 15px;
+.projectBox img {
+  width: 320px;
+  height: 180px;
+  padding: 15px;
 }
-.projectBox{
-    background-color: #164192;
-    width: 350px;
-    height: 450px;
-    border-radius: 15px;
-    box-shadow: 0 0 35px rgba(22, 65, 146, 0.5); 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-    color: white;
-    margin: 1rem 3rem;
+.projectBox {
+  background-color: #164192;
+  width: 350px;
+  height: 450px;
+  border-radius: 15px;
+  box-shadow: 0 0 35px rgba(22, 65, 146, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  margin: 1rem 3rem;
+  padding: 5px;
+  transition: all 0.4s ease;
 }
-.projectBox button{
-    margin: 1rem;
-    color: white;
-    background-color: #576CBC;
-    border: none;
-    width: 100px;
-    padding: 7px;
-    font-size: 24px;
-    border-radius:35px;
-    cursor: pointer;
+.projectBox:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 0 60px rgba(22, 65, 146, 0.8);
+  background-color: #1b4eb3; 
 }
-.projectBox h4{
-    font-size: 20px;
+.projectBox button {
+  margin: 1rem;
+  color: white;
+  background-color: #576cbc;
+  border: none;
+  width: 100px;
+  padding: 7px;
+  font-size: 24px;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
-.projectBox p{
-    font-size: 16px;
+
+.projectBox button:hover {
+  background-color: white;
+  color: #576cbc;
+  box-shadow: 0 0 20px rgba(87, 108, 188, 0.7);
+  transform: translateY(-2px); 
+}
+.projectBox h4 {
+  font-size: 20px;
+}
+.projectBox p {
+  font-size: 16px;
+  padding: 5px;
 }
 
 @media screen and (max-width: 992px) {
-    .projectCnt {
-        margin: 0 5rem;
-    }
+  .projectCnt {
+    margin: 0 5rem;
+  }
 
-    .projectBox {
-        width: 300px;
-        height: auto;
-        padding: 1rem 0;
-    }
+  .projectBox {
+    width: 300px;
+    height: auto;
+    padding: 1rem 0;
+  }
 
-    .projectBox img {
-        width: 260px;
-        height: auto;
-    }
+  .projectBox img {
+    width: 260px;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .projectCnt {
-        margin: 0 2rem;
-    }
+  .projectCnt {
+    margin: 0 2rem;
+  }
 
-    .projectBox {
-        width: 100%;
-    }
+  .projectBox {
+    width: 100%;
+  }
 
-    .projectBox img {
-        width: 100%;
-        height: auto;
-    }
+  .projectBox img {
+    width: 100%;
+    height: auto;
+  }
 
-    .projectBox button {
-        font-size: 20px;
-        width: 80px;
-    }
+  .projectBox button {
+    font-size: 20px;
+    width: 80px;
+  }
 }

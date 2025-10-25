@@ -19,7 +19,7 @@ function Intro() {
                 <p>I’m a frontend developer focused on building modern web apps with React.
                     I also develop indie games using Unity.
                     Reach out if you’d like to collaborate or learn more.</p>
-                    <a href="public/egemencakirCV1.pdf" download>
+                    <a href="/egemen-cakir-cv.pdf" download>
                     <button>Download CV</button>
                     </a>
                 
